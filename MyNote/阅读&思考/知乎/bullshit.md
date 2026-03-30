@@ -1,6 +1,20 @@
-作者：哈基咪python  
-链接：https://www.zhihu.com/question/369863905/answer/2020108278890243019  
-来源：知乎    
+---
+title: bullshit
+type: fleeting
+source: 知乎
+author: 哈基咪python
+url: https://www.zhihu.com/question/369863905/answer/2020108278890243019
+tags:
+  - 阅读思考
+  - 零散
+  - 表达与写作
+created: 2026-03-30
+status: 待整理
+---
+
+作者：哈基咪python
+链接：https://www.zhihu.com/question/369863905/answer/2020108278890243019
+来源：知乎
 [[技术学习上的一些思考]]
 
 当你问出“有没有什么练手项目”的时候，你在招聘市场上的简历就已经死了一半。

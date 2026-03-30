@@ -1,6 +1,18 @@
+---
+title: 文学 MOC
+type: moc
+tags:
+  - moc
+  - 文学
+  - 人文
+created: 2026-03-30
+updated: 2026-03-30
+---
+
 # 文学 MOC
 
-> Map of Content - 文学知识索引
+> [!abstract] Map of Content
+> 文学知识体系索引，涵盖中外文学、文学理论与阅读笔记
 
 ## 中国文学
 
@@ -35,11 +47,15 @@
 - [[修辞学]]
 
 ## 阅读笔记
-#todo 使用 Dataview 查询 `#阅读笔记` 标签
+
+```dataview
+LIST
+FROM #阅读笔记
+WHERE contains(file.tags, "文学")
+SORT file.mtime DESC
+```
 
 ## 相关索引
 - [[诗词MOC]]
 - [[历史MOC]]
-
----
-*最后更新: 2026-03-30*
+- [[知识体系总索引]]

@@ -1,6 +1,18 @@
+---
+title: 后端技术栈 MOC
+type: moc
+tags:
+  - moc
+  - 后端
+  - 技术
+created: 2026-03-30
+updated: 2026-03-30
+---
+
 # 后端技术栈 MOC
 
-> Map of Content - 后端技术知识索引
+> [!abstract] Map of Content
+> 后端技术知识体系索引，涵盖中间件、数据库、服务治理等核心技术栈
 
 ## 中间件技术
 
@@ -21,19 +33,32 @@
 
 ## 学习状态
 
+> [!tip] Dataview 查询
+> 使用以下查询追踪学习进度
+
 ### 学习中
-#todo 使用 Dataview 查询 `#学习中` 标签的笔记
+```dataview
+LIST
+FROM #学习中
+WHERE contains(file.tags, "后端")
+```
 
 ### 已掌握
-#todo 使用 Dataview 查询 `#已掌握` 标签的笔记
+```dataview
+LIST
+FROM #已掌握
+WHERE contains(file.tags, "后端")
+```
 
 ### 待学习
-#todo 使用 Dataview 查询 `#待学习` 标签的笔记
+```dataview
+LIST
+FROM #待学习
+WHERE contains(file.tags, "后端")
+```
 
 ## 相关索引
 - [[Java技术栈MOC]]
 - [[微服务架构MOC]]
 - [[性能优化MOC]]
-
----
-*最后更新: 2026-03-30*
+- [[知识体系总索引]]

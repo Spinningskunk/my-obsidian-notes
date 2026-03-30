@@ -1,6 +1,18 @@
+---
+title: 诗词 MOC
+type: moc
+tags:
+  - moc
+  - 诗词
+  - 人文
+created: 2026-03-30
+updated: 2026-03-30
+---
+
 # 诗词 MOC
 
-> Map of Content - 诗词知识索引
+> [!abstract] Map of Content
+> 诗词知识体系索引，涵盖诗歌、词牌格律与名家作品
 
 ## 诗歌
 
@@ -40,11 +52,14 @@
 - [[诗词格律]]
 
 ## 背诵清单
-#todo 使用 Dataview 查询 `#背诵` 标签
+
+```dataview
+LIST
+FROM #背诵
+WHERE contains(file.tags, "诗词")
+```
 
 ## 相关索引
 - [[文学MOC]]
 - [[历史MOC]]
-
----
-*最后更新: 2026-03-30*
+- [[知识体系总索引]]

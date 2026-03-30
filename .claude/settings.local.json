@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mv \"D:\\\\Note\\\\my-obsidian-notes\\\\.claude\\\\obsidian-skills\\\\skills\"/* \"D:\\\\Note\\\\my-obsidian-notes\\\\.claude\\\\skills/\")",
+      "Bash(mkdir -p \"D:\\\\Note\\\\my-obsidian-notes\\\\.claude\\\\skills\")",
+      "Bash(cp -r \"D:\\\\Note\\\\my-obsidian-notes\\\\.claude\\\\obsidian-skills\\\\skills\"/* \"D:\\\\Note\\\\my-obsidian-notes\\\\.claude\\\\skills/\")",
+      "Bash(find \"D:\\\\Note\\\\my-obsidian-notes\\\\MyNote\\\\阅读&思考\" -type f)",
+      "Bash(ls -la \"MyNote/阅读&思考\")",
+      "Bash(find \"/d/Note/my-obsidian-notes/.claude/worktrees/agent-a0202113/MyNote/阅读&思考\" -type f -name \"*.md\")",
+      "Bash(find \"/d/Note/my-obsidian-notes/.claude/worktrees/agent-a0202113/MyNote\" -type f -name \"*.md\" -exec basename {})"
+    ]
+  }
+}
