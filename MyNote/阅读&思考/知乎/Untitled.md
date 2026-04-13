@@ -1,0 +1,23 @@
+---
+title: {{title}}
+type: fleeting
+source: 知乎
+author:
+url:
+tags:
+  - 阅读思考
+  - 零散
+created: {{date:YYYY-MM-DD}}
+status: 待整理
+---
+
+# {{title}}
+
+> [!quote] 原文摘录
+>
+
+> [!note] 个人思考
+>
+
+## 相关笔记
+- [[]]

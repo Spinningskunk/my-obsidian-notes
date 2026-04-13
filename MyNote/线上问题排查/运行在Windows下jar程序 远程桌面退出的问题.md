@@ -1,10 +1,9 @@
 ---
-title: "[object Object]"
+title: 运行在Windows下jar程序 远程桌面退出的问题
 type: note
 tags:
   - 技术
   - 学习中
-  - 问题排查
 created:
   "{ date:YYYY-MM-DD }":
 updated:

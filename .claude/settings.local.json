@@ -7,7 +7,8 @@
       "Bash(find \"D:\\\\Note\\\\my-obsidian-notes\\\\MyNote\\\\阅读&思考\" -type f)",
       "Bash(ls -la \"MyNote/阅读&思考\")",
       "Bash(find \"/d/Note/my-obsidian-notes/.claude/worktrees/agent-a0202113/MyNote/阅读&思考\" -type f -name \"*.md\")",
-      "Bash(find \"/d/Note/my-obsidian-notes/.claude/worktrees/agent-a0202113/MyNote\" -type f -name \"*.md\" -exec basename {})"
+      "Bash(find \"/d/Note/my-obsidian-notes/.claude/worktrees/agent-a0202113/MyNote\" -type f -name \"*.md\" -exec basename {})",
+      "Bash(obsidian help:*)"
     ]
   }
 }
